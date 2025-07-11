@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Tests with oj-tools",
+            "type": "shell",
+            "command": "cd ${relativeFileDirname} && oj t -c \"python ${fileBasename}\"",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        }
+    ]
+}
