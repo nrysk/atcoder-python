@@ -5,8 +5,12 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "ac-library-python",
     "aclogin>=0.2.1",
     "online-judge-template-generator>=4.8.1",
     "online-judge-tools>=11.5.1",
     "setuptools>=80.9.0",
 ]
+
+[tool.uv.sources]
+ac-library-python = { git = "https://github.com/not522/ac-library-python" }
