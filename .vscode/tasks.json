@@ -4,7 +4,7 @@
         {
             "label": "Run Tests with oj-tools",
             "type": "shell",
-            "command": "cd ${relativeFileDirname} && oj t -c \"python ${fileBasename}\"",
+            "command": "source ${workspaceFolder}/.venv/bin/activate && cd ${relativeFileDirname} && oj t -c \"python ${fileBasename}\"",
             "problemMatcher": [],
             "presentation": {
                 "reveal": "always",
